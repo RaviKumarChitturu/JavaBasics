@@ -13,9 +13,7 @@ public class Employee{
 		this.empID=empID;
 		this.empdept=empdept;
 		this.empName=empName;
-		
-		
-	}
+			}
 	public static void main(String[] args) {
 		Employeeanother ed=new Employeeanother();
 		ed.Employeedeatails();
