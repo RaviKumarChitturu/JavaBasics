@@ -1,4 +1,4 @@
-package a.arrays;
+package a_arrays;
 /* 5. Write java programs by following below steps:
 Step1 : Create employee class with following details:  class Name: Employee,  employee details:  emp_ID, emp_Name, emp_dept  and Initialize these three variables with parametrized constructor
 Step2:  Create one more class and declare single dimension array with data type is Employee, initialize it by passing employee objects.

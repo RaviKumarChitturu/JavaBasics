@@ -1,4 +1,4 @@
-package a.arrays;
+package a_arrays;
 class LargestNumber
 {
 	public static void main(String args[])

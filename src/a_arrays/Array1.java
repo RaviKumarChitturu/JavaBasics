@@ -1,4 +1,4 @@
-package a.arrays;
+package a_arrays;
 
 import org.testng.annotations.Test;
 

@@ -1,4 +1,4 @@
-package a.arrays;
+package a_arrays;
 //initializing values to array
 public class DoubleDimension {
 	

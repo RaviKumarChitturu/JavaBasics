@@ -1,4 +1,4 @@
-package a.arrays;
+package a_arrays;
 
 import java.util.Arrays;
 
@@ -28,6 +28,16 @@ public class ArrayCopying {
 		}
 		System.out.println();
 	}
+	void Systemarraycopy(){
+		System.out.println("-----Systemarraycopy----------");
+		//copying one array to another
+		System.arraycopy(a, 0, b, 0, a.length);
+		//printing array
+		for(int i=0;i<b.length;++i){
+			System.out.print(b[i]+" ");
+		}
+		System.out.println();
+	}
 	
 	void clone1(){
 		System.out.println("-----clone1----------");
@@ -45,6 +55,7 @@ public class ArrayCopying {
          copy.clone1();
          copy.copyof();
          copy.Manualcopy();
+         copy.Systemarraycopy();
 	}
 
 }
