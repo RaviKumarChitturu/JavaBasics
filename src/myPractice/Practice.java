@@ -1,5 +1,5 @@
 package myPractice;
-/*
+
 import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
@@ -93,7 +93,7 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class Practice{
+ class Practice4{
 	void m1(){
 		ArrayList<String> a1 = new ArrayList<String>();
 		a1.add("Ravi");
@@ -118,7 +118,7 @@ public class Practice{
 
 
 
-public class Practice{
+ class Practice3{
 
 	public ArrayList<String>  printduplicatevalues() 
 	{
@@ -150,46 +150,22 @@ public class Practice{
 	}
 
 public static void  main(String[] args) {
-	Practice p=new Practice();
+	Practice3 p=new Practice3();
 	p.printduplicatevalues();
 
 
 }
 }
-import java.util.Set;
+ 
 
 
 
 
 
-public class Practice{
-	public static void main(String args[]){  
-		  LinkedHashSet<String> al=new LinkedHashSet<String>();  
-		  al.add("Ravi");  
-		  al.add("Vijay");  
-		  al.add("Ajay");  
-		  al.add("Ajay");  
-		  al.add("Ravi");  
-		  al.add("Ajay");  
-		  al.add("Ravi");  
-		  al.add("Ravi");  
-		  al.add("Ravi");  
-		  for (int i = 0; i < al.size(); i++)
-		   { 
-			   for (int j = i + 1 ; j < al.size(); j++) 
-			   {
-				   if (al[i].equals(names[j]))
-				   { // got the duplicate element } } }
-			   }
-		   }
 
+ 
 
-		  }  
-		 }  
-
-	}
-
-public class Practice {
+ class Practice1 {
 	public HashSet<String> dupli(){
 		ArrayList<String> names = new ArrayList<String>();
 		names.add("Java");
@@ -281,4 +257,3 @@ public class Practice {
 
 
 
-*/

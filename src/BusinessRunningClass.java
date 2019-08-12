@@ -2,7 +2,7 @@
 public class BusinessRunningClass {
 	
 	
-	public static void main(String[] args) {
+	public static void main(Stringclass[] args) {
 		Interf1 aSomeXobj =new SomeXImplemenation();
 		aSomeXobj.sayHello();
 		aSomeXobj.saySomething();

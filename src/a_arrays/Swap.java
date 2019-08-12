@@ -2,6 +2,7 @@ package a_arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.ListIterator;
 
 import org.testng.annotations.Test;
@@ -42,8 +43,18 @@ public class Swap {
 		
 	}
 	
+	void swap3(){
+		ArrayList<String> list = new ArrayList<>(Arrays.asList("a", "b", "c", "d", "e", "f"));
+        
+        System.out.println(list);
+         
+        Collections.swap(list, 1, 2);
+         
+        System.out.println(list);
+	}
+	
 	public static void main(String[] args) {
 		Swap s=new Swap();
-		s.Swap1();
+		s.swap3();
 	}
 }
