@@ -48,16 +48,25 @@ public class Program7 {
 		}
 		System.out.println("Updated2:"+al);
 		//d. Delete the value at last position using ListIterator
-		while(itr.hasPrevious()){
+		/*while(itr.hasPrevious()){
 			String s=itr.previous();
 			if(s.equals("element5")){
 				itr.remove();
 			}					
 				
 		}
-		System.out.println("Updated3:"+al);
+		System.out.println("Updated3:"+al);*/
+		int k=al.size()-1;
+		while(itr.hasPrevious()){
+			itr.previous();
+			if(itr.previousIndex()+1==k){
+				itr.remove();
+			}					
+			
+		}
 		
-	
+		System.out.println("Updated3:"+al);	
+		
 	}
 
 }
